@@ -40,6 +40,7 @@ if (!repo) throw new Error('找不到仓库地址');
 
 data.updateUrl =
   `https://raw.githubusercontent.com/${repo}/main/dist/gkd.json5`;
+delete data.checkUpdateUrl;
 
 await fs.mkdir('dist', { recursive: true });
 
