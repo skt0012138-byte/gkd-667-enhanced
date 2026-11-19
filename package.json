@@ -1,0 +1,11 @@
+{
+  "name": "gkd-667-enhanced",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "json5": "^2.2.3"
+  }
+}
